@@ -1,0 +1,90 @@
+.text-box h3:first-of-type {
+    color: pink;
+}
+
+.text-box #greycol {
+    color: grey;
+}
+
+.text-box div p {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+p:nth-child(7) {
+    color: green;
+}
+
+/* Завдання 2 */
+#monday li:nth-child(odd) {
+    background-color: lightblue;
+}
+
+#monday li:nth-child(even) {
+    background-color: rgb(202, 245, 202);
+}
+
+#monday li:hover {
+    font-weight: bold;
+}
+
+
+#tuesday li:nth-child(3n+1) {
+    background-color: rgb(255, 224, 230);
+}
+
+#tuesday li:nth-child(3n+2) {
+    background-color: lightyellow;
+}
+
+#tuesday li:nth-child(3n) {
+    background-color: rgb(241, 205, 254);
+}
+
+#tuesday li:first-child {
+    text-decoration: underline;
+}
+
+
+#wednesday li:nth-child(odd) {
+    background-color: lightblue;
+}
+
+#wednesday li:nth-child(even) {
+    background-color: rgb(255, 128, 196);
+}
+
+#wednesday li:last-child {
+    font-style: italic;
+}
+
+
+#thursday li:nth-last-child(2) {
+    background-color: orange;
+}
+
+#thursday li:nth-child(even) {
+    background-color: rgb(146, 177, 146);
+}
+
+
+#thursday li:hover {
+    font-weight: bold;
+}
+
+#friday li:nth-child(odd) {
+    background-color: lightblue;
+}
+
+#friday li:nth-child(even) {
+    background-color: lightcoral;
+}
+
+
+
+#friday li:nth-child(4n) {
+    color: rgb(122, 233, 255);
+}
